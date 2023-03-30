@@ -7,7 +7,7 @@
 }
 
 #about_us:nth-child(odd){
-    background-image : linear-gradient(45deg,#ffffff,#518ebd74);
+    background-image: linear-gradient(45deg,#4e83b624,#9cc5e77d,#3b79a980);
     /* background-color:#4c799f12; */
     box-shadow: inset 0px 3px 5px #b4b4b442;
     box-shadow: inset 0px -3px 8px #b4b4b442;
