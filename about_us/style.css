@@ -1,0 +1,28 @@
+
+/*Design for the about US*/
+
+#about_us{
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about_us:nth-child(odd){
+    background-color:#4c799f12;
+    box-shadow: inset 0px 3px 5px #b4b4b442;
+    box-shadow: inset 0px -3px 8px #b4b4b442;
+}
+
+#about_us:nth-child(even){
+    flex-direction: row-reverse;
+    gap: 90px; 
+}
+
+.about-us-content{
+    gap: 18px;
+}
+
+.about-us-element img{
+    height: 28rem;
+}
+
+

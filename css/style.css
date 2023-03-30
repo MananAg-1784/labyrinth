@@ -22,6 +22,23 @@
     flex-direction: column;
 }
 
+section{
+    padding: 50px var(--main-padding);
+}
+
+.heading{
+    font-size: 1.8rem;
+    font-family: monospace;
+    color: rgb(61, 61, 61);
+    font-weight: bold;
+}
+
+.paragraph{
+    font-size: 1.1rem;
+    width: 600px;
+}
+
+
 /*Read more button*/
 .read_more a{
     color: white;
