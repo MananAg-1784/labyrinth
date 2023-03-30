@@ -7,12 +7,14 @@
 }
 
 #about_us:nth-child(odd){
-    background-color:#4c799f12;
+    background-image : linear-gradient(45deg,#ffffff,#518ebd74);
+    /* background-color:#4c799f12; */
     box-shadow: inset 0px 3px 5px #b4b4b442;
     box-shadow: inset 0px -3px 8px #b4b4b442;
 }
 
 #about_us:nth-child(even){
+    background-image: linear-gradient(-45deg,#e5e5e59a, #f1f1f1ce,#e5e5e59a);
     flex-direction: row-reverse;
     gap: 90px; 
 }
