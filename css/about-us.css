@@ -74,6 +74,9 @@
     .about-us-element img{
         height: 20rem;
     }
+    .about-us-content{
+        margin: 12px 25px;
+    }
 }
 @media screen and (width<=350px){
     .about-us-element img{
