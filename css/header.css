@@ -80,6 +80,7 @@ nav li a:hover{
     .nav_menu{
         display: none;
         text-align: start;
+        z-index: 9;
 
         background-color: rgb(237, 237, 237);
         padding: 10px 0px;
