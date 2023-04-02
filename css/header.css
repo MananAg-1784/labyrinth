@@ -33,6 +33,7 @@ nav li a{
 
     font-size: 1.12rem;
     color: rgb(39, 39, 39);
+    border-bottom: 3px solid #f1f1f1ce;
     
     padding: 13px;
     transition: 0.1s;
@@ -57,7 +58,13 @@ nav li a:hover{
     cursor: pointer;
 }
 
-@media screen and (width<=900px){
+@media screen and (width<=1050px){
+    .head_logo img{
+        height: 80px;
+    }
+}
+
+@media screen and (width<=950px){
     .head_logo img{
         height: 70px;
     }
@@ -100,5 +107,27 @@ nav li a:hover{
     }
     #line-nav-img{
         height: 25px;
+    }
+
+    nav li a{
+        padding: 10px;
+    }
+
+    .nav_menu{
+        top: 45px;
+    }
+
+    .nav_menu li a{
+        width: 150px;
+    }
+}
+
+@media screen and (width<=350px) {
+    .head_logo img{
+        height: 42px;
+    }
+
+    #line-nav-img{
+        height: 20px;
     }
 }

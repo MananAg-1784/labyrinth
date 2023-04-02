@@ -39,3 +39,20 @@ footer > div{
     transition: 0.3s;
     transform: scale(1.2);
 }
+
+@media screen and (width<=900px) {
+    .footer_describe img{
+        height: 3.5rem;
+    }
+    .social_media img{
+        height: 2rem;
+    }
+}
+
+@media screen and (width<=600px) {
+    footer{
+        flex-direction: column !important;
+        gap: 25px;
+        align-items: flex-start;
+    }
+}
