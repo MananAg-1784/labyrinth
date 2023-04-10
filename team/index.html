@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/_.css">
+    <link rel="stylesheet" href="../css/scroll-up-card.css">
+    <link rel="stylesheet" href="../css/team.css">
 
     <link rel="icon" href="../assets/logo/Icon-Transparent.png">
 
@@ -29,7 +30,10 @@
             </div>
         </div>
         <nav class="flex row">
-                <ul class="nav_menu flex row">
+            <button id="line-nav-button" class="flex row">
+                <img src="../assets/nav-bar-horizontal-lines.png" 
+                id="line-nav-img" alt="">
+                <ul class="nav_menu row">
                     <li>
                         <a href="../index.html" >Home</a>
                     </li>
@@ -37,10 +41,10 @@
                         <a href="../about_us/">About Us</a>
                     </li>
                     <li>
-                        <a href="../events/">Events</a>
+                        <a href="../events/" >Events</a>
                     </li>
                     <li>
-                        <a href="../Projects/" >Projects</a>
+                        <a href="../Projects/">Projects</a>
                     </li>
                     <li>
                         <a href="../blog/">Blog</a>
@@ -49,23 +53,104 @@
                         <a href="../team/" class="active">Team</a>
                     </li>
                     <li>
-                        <a href="../Enquiry/" >Enquiry</a>
+                        <a href="../Enquiry/">Enquiry</a>
                     </li>
                 </ul>
-                <ul class="login flex row">
-                    <li>
-                        <a href="">Login</a>
-                    </li>
-                    <li>
-                        <a href="">Signup</a>
-                    </li>
-                </ul>
+            </button>
+            <ul class="login row">
+                <li>
+                    <a href="">Login</a>
+                </li>
+                <li>
+                    <a href="">Signup</a>
+                </li>
+            </ul>
+
             </div>
         </nav>
     </header>
 
     <main>
-        <span>HII</span>
+        <section id="team">
+            <div class="heading">OUR TEAM</div>
+            <div class="card-container">
+                <div class="card flex column">
+                    <div class="card-img">
+                        <img src="../assets/team/Lisa Shibu George.jpg" alt="">
+                    </div>
+                    <div class="team-desc flex column">
+                        <div class="card-head">Lisa Shibu George</div>
+                        <div class="card-position">President</div>
+                    </div>
+                </div>
+                <div class="card flex column">
+                    <div class="card-img">
+                        <img src="../assets/team/karan agarwal.jpg" alt="">
+                    </div>
+                    <div class="team-desc flex column">
+                        <div class="card-head">Karam Agarwal</div>
+                        <div class="card-position">Secretary</div>
+                    </div>
+                </div>
+                <div class="card flex column">
+                    <div class="card-img">
+                        <img src="../assets/img buffer.jpg" alt="">
+                    </div>
+                    <div class="team-desc flex column">
+                        <div class="card-head">Sanjeevani Shah
+                        </div>
+                        <div class="card-position">Treasurer</div>
+                    </div>
+                </div>
+                <div class="card flex column">
+                    <div class="card-img">
+                        <img src="../assets/team/mahek kapoor.jpg" alt="">
+                    </div>
+                    <div class="team-desc flex column">
+                        <div class="card-head">Mahek Kapoor
+                        </div>
+                        <div class="card-position">Content Writer</div>
+                    </div>
+                </div>
+                <div class="card flex column">
+                    <div class="card-img">
+                        <img src="../assets/img buffer.jpg" alt="">
+                    </div>
+                    <div class="team-desc flex column">
+                        <div class="card-head">Sayan Mandal</div>
+                        <div class="card-position">Content Writer</div>
+                    </div>
+                </div>
+                <div class="card flex column">
+                    <div class="card-img">
+                        <img src="../assets/team/rishi vagadia.jpg" alt="">
+                    </div>
+                    <div class="team-desc flex column">
+                        <div class="card-head">Rishi Vagadia</div>
+                        <div class="card-position">Report writer</div>
+                    </div>
+                </div>
+                <div class="card flex column">
+                    <div class="card-img">
+                        <img src="../assets/img buffer.jpg" alt="">
+                    </div>
+                    <div class="team-desc flex column">
+                        <div class="card-head">Subroto Santra</div>
+                        <div class="card-position">Photographer</div>
+                    </div>
+                </div>
+                <div class="card flex column">
+                    <div class="card-img">
+                        <img src="../assets/img buffer.jpg" alt="">
+                    </div>
+                    <div class="team-desc flex column">
+                        <div class="card-head">Rishabh Nahar</div>
+                        <div class="card-position">Resource manager</div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
     </main>
 
     <footer class="flex row">
@@ -94,6 +179,7 @@
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="../script.js"></script>
 
 </body>

@@ -1,4 +1,5 @@
 
+
 .head_logo{
     align-items: center;
     justify-content: space-between;
@@ -94,6 +95,7 @@ nav li a:hover{
     .nav_menu li a{
         width: 200px;
         padding-left: var(--main-padding);
+        border-bottom: none;
     }
 
     .nav_menu li a:hover, .active{
