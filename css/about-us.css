@@ -49,7 +49,7 @@
 }
 
 
-@media screen and (width<=700px) {
+@media screen and (width<=800px) {
     .paragraph{
         width: 100%;
     }

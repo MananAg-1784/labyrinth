@@ -1,4 +1,8 @@
-        .card-head{
+       #team{
+        background-color: #d7d7d72b;
+       }
+       
+       .card-head{
             font-weight: 500;
             text-align: center;
         }
@@ -15,17 +19,22 @@
         }
 
         .card-img img{
+            border-top-right-radius: 6px;
+            border-top-left-radius: 6px;
+
             height: 250px;
             object-fit: cover;
             opacity: 0.95;
         }
         .card{
-            /* padding: 10px; */
+            background-color: white;
+
+            padding: 5px;
             width: 240px;
             
             border: 1px solid rgba(206, 206, 206, 0.2);
             box-shadow: #cccccc30 5px 5px 20px 0, #cccccc30 -5px -5px 20px 0;
-            /* border-radius: 10px; */
+            border-radius: 10px;
         }
 
         .card-container{
@@ -36,3 +45,5 @@
         .card:hover .card-img{
             opacity: 0.95 !important;
     }
+
+

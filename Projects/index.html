@@ -29,7 +29,10 @@
             </div>
         </div>
         <nav class="flex row">
-                <ul class="nav_menu flex row">
+            <button id="line-nav-button" class="flex row">
+                <img src="../assets/nav-bar-horizontal-lines.png" 
+                id="line-nav-img" alt="">
+                <ul class="nav_menu row">
                     <li>
                         <a href="../index.html" >Home</a>
                     </li>
@@ -37,7 +40,7 @@
                         <a href="../about_us/">About Us</a>
                     </li>
                     <li>
-                        <a href="../events/">Events</a>
+                        <a href="../events/" >Events</a>
                     </li>
                     <li>
                         <a href="../Projects/" class="active">Projects</a>
@@ -49,17 +52,19 @@
                         <a href="../team/">Team</a>
                     </li>
                     <li>
-                        <a href="../Enquiry/" >Enquiry</a>
+                        <a href="../Enquiry/">Enquiry</a>
                     </li>
                 </ul>
-                <ul class="login flex row">
-                    <li>
-                        <a href="">Login</a>
-                    </li>
-                    <li>
-                        <a href="">Signup</a>
-                    </li>
-                </ul>
+            </button>
+            <ul class="login row">
+                <li>
+                    <a href="">Login</a>
+                </li>
+                <li>
+                    <a href="">Signup</a>
+                </li>
+            </ul>
+
             </div>
         </nav>
     </header>
@@ -67,6 +72,8 @@
     <main>
         <section id="projects">
             <div class="heading">PROJECTS</div>
+            <div id="loader" class="spin">
+            </div>
             <div class="card-container">
                 <div class="card flex column">
                     <div class="card-img">
@@ -150,6 +157,7 @@
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="../script.js"></script>
 
 </body>

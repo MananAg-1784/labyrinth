@@ -8,6 +8,16 @@ $(document).ready( function(){
         });
         
     }
+    document.onreadystatechange = function() {
+        if (document.readyState !== "complete") {
+            document.querySelector(".card-container").style.visibility = "hidden";
+            document.querySelector("#loader").style.visibility = "visible";
+        } else {
+            document.querySelector("#loader").style.display = "none";
+            document.querySelector(".card-container").style.visibility = "visible";
+        }
+    };
+  
 });
 
 
