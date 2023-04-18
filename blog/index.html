@@ -28,7 +28,10 @@
             </div>
         </div>
         <nav class="flex row">
-                <ul class="nav_menu flex row">
+            <button id="line-nav-button" class="flex row">
+                <img src="../assets/nav-bar-horizontal-lines.png" 
+                id="line-nav-img" alt="">
+                <ul class="nav_menu row">
                     <li>
                         <a href="../index.html" >Home</a>
                     </li>
@@ -36,29 +39,31 @@
                         <a href="../about_us/">About Us</a>
                     </li>
                     <li>
-                        <a href="../events/">Events</a>
+                        <a href="../events/" >Events</a>
                     </li>
                     <li>
                         <a href="../Projects/" >Projects</a>
                     </li>
                     <li>
-                        <a href="../blog/"  class="active">Blog</a>
+                        <a href="../blog/" class="active">Blog</a>
                     </li>
                     <li>
                         <a href="../team/">Team</a>
                     </li>
                     <li>
-                        <a href="../Enquiry/" >Enquiry</a>
+                        <a href="../Enquiry/">Enquiry</a>
                     </li>
                 </ul>
-                <ul class="login flex row">
-                    <li>
-                        <a href="">Login</a>
-                    </li>
-                    <li>
-                        <a href="">Signup</a>
-                    </li>
-                </ul>
+            </button>
+            <ul class="login row">
+                <li>
+                    <a href="">Login</a>
+                </li>
+                <li>
+                    <a href="">Signup</a>
+                </li>
+            </ul>
+
             </div>
         </nav>
     </header>
@@ -67,8 +72,10 @@
 
         <section id="blog" class="flex column">
             <div class="heading">BLOG</div>
-
-            <div id="blog_card_container" class="flex column">
+            <div id="loader" class="spin">
+            </div>
+            <div class="card-container"></div>
+            <div id="blog_card_container" class="column">
 
                 <div class="blog-cards flex row">
 
@@ -80,14 +87,6 @@
                             <span>By Anul Jain</span>
                             <span>|</span>
                             <span>04-12-2018 08:41 PM</span>
-                            <span>|</span>
-                            <span> 
-                                <img src="" alt="">
-                                1227</span>
-                            <span>|</span>
-                            <span>
-                                <img src="" alt="">
-                                11</span>
                             
                         </div>
                         <button class="read_more">
@@ -123,7 +122,6 @@
 
                 </div>
 
-                
             </div>
         </section>
 
@@ -155,6 +153,18 @@
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="../script.js"></script>
+    <script>
+        $(document).ready( function(){
+            document.onreadystatechange = function() {
+                if (document.readyState == "complete") {
+                    document.querySelector("#loader").style.display = "none";
+                    document.querySelector("#blog_card_container").style.display = "flex";
+                }
+            };
+        });
+    </script>
+    </script>
 </body>
 </html>

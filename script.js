@@ -14,10 +14,8 @@ $(document).ready( function(){
             document.querySelector("#loader").style.visibility = "visible";
         } else {
             document.querySelector("#loader").style.display = "none";
-            document.querySelector(".card-container").style.visibility = "visible";
+            document.querySelector(".card-container").style.display = "grid";
         }
     };
   
 });
-
-
