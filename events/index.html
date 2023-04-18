@@ -14,6 +14,14 @@
 
     <title>Events-Labyrinth</title>
     
+    <style>
+        section:first-child{
+            padding-bottom: 0px;
+        }
+        section:last-child{
+            padding-top: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -71,6 +79,16 @@
     </header>
 
     <main>
+
+        <section id="events" class="upcoming-events">
+            <div class="heading">UPCOMING EVENTS</div>
+            <div id="loader" class="spin">
+            </div>
+            <div class="card-container">
+                <div id="no-events">No Upcoming Events !!</div>
+            </div>
+        </section>
+
         <section id="events">
             <div class="heading">EVENTS</div>
             <div id="loader" class="spin">
