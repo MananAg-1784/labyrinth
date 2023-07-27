@@ -18,8 +18,9 @@ form div{
 }
 
 form input, textarea{
-    border: 1px solid rgb(61,61,61);
-    border-radius: 8px;
+    border-bottom: 1px solid rgb(61,61,61) !important;
+    border: none;
+    /* border-radius: 8px; */
     background:#d4d4d429;
     color: rgb(61, 61, 61);
 
@@ -31,7 +32,7 @@ form input, textarea{
 }
 
 form input:focus,textarea:focus{
-    box-shadow: 0px 0px 10px 0px #2676ee51;
+    /* box-shadow: 0px 0px 10px 0px #2676ee51; */
 }
 
 

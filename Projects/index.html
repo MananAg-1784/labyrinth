@@ -45,9 +45,7 @@
                     <li>
                         <a href="../Projects/" class="active">Projects</a>
                     </li>
-                    <li>
-                        <a href="../blog/">Blog</a>
-                    </li>
+                   
                     <li>
                         <a href="../team/">Team</a>
                     </li>
@@ -56,14 +54,7 @@
                     </li>
                 </ul>
             </button>
-            <ul class="login row">
-                <li>
-                    <a href="">Login</a>
-                </li>
-                <li>
-                    <a href="">Signup</a>
-                </li>
-            </ul>
+            
 
             </div>
         </nav>
@@ -75,58 +66,7 @@
             <div id="loader" class="spin">
             </div>
             <div class="card-container">
-                <div class="card flex column">
-                    <div class="card-img">
-                        <img src="../assets/events/event_fedora-women-s-day_245122391.png" alt="">
-                    </div>
-                    <div class="card-content flex column">
-                        <div class="card-head">Fedora's Womens Day</div>
-                        <div class="card-desc">Labyrinth & WRIT (Women in research and Information technology) organised event to spread awarness to women's</div>
-                        <div class="card-loc flex row">
-                            <span>16-09-2017</span>
-                            <span>12:00 PM</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card flex column">
-                    <div class="card-img">
-                        <img src="../assets/events/event_fedora-women-s-day_245122391.png" alt="">
-                    </div>
-                    <div class="card-content flex column">
-                        <div class="card-head">Fedora's Womens Day</div>
-                        <div class="card-desc">Labyrinth & WRIT (Women in research and Information technology) organised event to spread awarness to women's</div>
-                        <div class="card-loc flex row">
-                            <span>16-09-2017</span>
-                            <span>12:00 PM</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card flex column">
-                    <div class="card-img">
-                        <img src="../assets/events/event_fedora-women-s-day_245122391.png" alt="">
-                    </div>
-                    <div class="card-content flex column">
-                        <div class="card-head">Fedora's Womens Day</div>
-                        <div class="card-desc">Labyrinth & WRIT (Women in research and Information technology) organised event to spread awarness to women's</div>
-                        <div class="card-loc flex row">
-                            <span>16-09-2017</span>
-                            <span>12:00 PM</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="card flex column">
-                    <div class="card-img">
-                        <img src="../assets/events/event_fedora-women-s-day_245122391.png" alt="">
-                    </div>
-                    <div class="card-content flex column">
-                        <div class="card-head">Fedora's Womens Day</div>
-                        <div class="card-desc">Labyrinth & WRIT (Women in research and Information technology) organised event to spread awarness to women's</div>
-                        <div class="card-loc flex row">
-                            <span>16-09-2017</span>
-                            <span>12:00 PM</span>
-                        </div>
-                    </div>
-                </div>
+                <div id="no-events">No Ongoing Projects !!</div>
             </div>
         </section>
     </main>
@@ -159,6 +99,18 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="../script.js"></script>
+    <script>
+        var projects = document.querySelectorAll("#projects .card-container > div");
+    if( projects.length == 1 )
+    {
+       document.querySelector("#no-events").style.display = "block";
+       document.querySelector("#no-events").style.fontSize = "1.2rem";
+       document.querySelector('main').style.height = "54vh";
+    }
+    else{
+        document.querySelector("#no-events").style.display = "none";
+    }
+    </script>
 
 </body>
 </html>
