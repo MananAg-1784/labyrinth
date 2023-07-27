@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
-    <!-- <link rel="stylesheet" href="css/team.css"> -->
     <link rel="stylesheet" href="css/about-us.css">
     <link rel="stylesheet" href="css/scroll-up-card.css">
 
@@ -15,6 +14,70 @@
     <link rel="icon" href="assets/logo/Icon-Transparent.png">
 
     <title>Labyrinth</title>
+
+    <style>
+        #club-card{
+            flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 35px;
+
+        }
+        #club-card > div{ 
+            margin-top: 76px;
+            padding: 25px 20px;
+    padding-top: 71px;
+    position: relative;
+    display: flex;
+    gap: 15px;
+    width: 219px;
+    box-shadow: 0px 5px 5px 0px #0000007d, 0px -3px 2px 0px #0000000d;
+    flex-direction: column;
+        }
+        #club-img{
+            position: absolute;
+    padding: 20px;
+    background-color: #f1f1f1;
+    top: -75px;
+    right: 60px
+        }
+
+        #club-img img{
+            height: 100px;
+        }
+        #club-desc{
+            font-size: 1.1rem;
+        }
+        #club-title{
+            font-weight: bold;
+    font-size: 1.15rem;
+        }
+    </style>
+
+    <style>
+        #motto{
+            background-image: linear-gradient(45deg,#4e83b624,#9cc5e77d,#3b79a980);
+            /* background-color:#4c799f12; */
+            box-shadow: inset 0px 3px 5px #b4b4b442;
+            box-shadow: inset 0px -3px 8px #b4b4b442;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 100px 180px;
+        }
+        #motto div{
+            font-family:sans-serif;
+            text-transform: uppercase;
+        }
+        #motto div:nth-child(1){
+            font-size: 2.3rem;
+            font-weight: bold;
+        }
+        #motto div:nth-child(2){
+            font-size: 1.3rem;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -83,18 +146,82 @@
             </div>
 
         </section>
-        <section id="clubs">
-            <div class="heading">CLUBS</div>
-            <div class="card-container">
+        <section id="clubs" class="flex row about_us">
+            <div class="flex column about-us-content">
+                <div class="heading">CLUBS</div>
+    
+                <div class="paragraph">
+                    Labyrinth motivates the students not only knowledgeable in all domains, instead, helps to mould each individual as an expert in a very specific domain. The main objective of Labyrinth is to nurture the students potential to develop applications in their preferred technology.To promote this idea, Labyrinth is having seven clubs as follow:
+                </div>
+
+                <div id="club-card" class="flex row">
+                    <div>
+                        <div id="club-img">
+                            <img src="assets/elements/calendar_10138889.png" alt="">
+                        </div>
+                        <div id="club-desc">This club will help students who are passionate in creating mobile applications and making our life easier.</div>
+                        <div id="club-title">Labyrinth – Skyacrates (Mobile techies)
+                        </div>
+                    </div>
+                    <div>
+                        <div id="club-img">
+                            <img src="assets/elements/calendar_10138889.png" alt="">
+                        </div>
+                        <div id="club-desc">This club will help students who are passionate in creating mobile applications and making our life easier.</div>
+                        <div id="club-title">Labyrinth – Skyacrates (Mobile techies)
+                        </div>
+                    </div>
+                    <div>
+                        <div id="club-img">
+                            <img src="assets/elements/calendar_10138889.png" alt="">
+                        </div>
+                        <div id="club-desc">This club will help students who are passionate in creating mobile applications and making our life easier.</div>
+                        <div id="club-title">Labyrinth – Skyacrates (Mobile techies)
+                        </div>
+                    </div>
+                    <div>
+                        <div id="club-img">
+                            <img src="assets/elements/calendar_10138889.png" alt="">
+                        </div>
+                        <div id="club-desc">This club will help students who are passionate in creating mobile applications and making our life easier.</div>
+                        <div id="club-title">Labyrinth – Skyacrates (Mobile techies)
+                        </div>
+                    </div>
+                    <div>
+                        <div id="club-img">
+                            <img src="assets/elements/calendar_10138889.png" alt="">
+                        </div>
+                        <div id="club-desc">This club will help students who are passionate in creating mobile applications and making our life easier.</div>
+                        <div id="club-title">Labyrinth – Skyacrates (Mobile techies)
+                        </div>
+                    </div>
+                    <div>
+                        <div id="club-img">
+                            <img src="assets/elements/calendar_10138889.png" alt="">
+                        </div>
+                        <div id="club-desc">This club will help students who are passionate in creating mobile applications and making our life easier.</div>
+                        <div id="club-title">Labyrinth – Skyacrates (Mobile techies)
+                        </div>
+                    </div>
+                    <div>
+                        <div id="club-img">
+                            <img src="assets/elements/calendar_10138889.png" alt="">
+                        </div>
+                        <div id="club-desc">This club will help students who are passionate in creating mobile applications and making our life easier.</div>
+                        <div id="club-title">Labyrinth – Skyacrates (Mobile techies)
+                        </div>
+                    </div>
+                   
+                </div>
+
             </div>
         </section>
 
-        <section id="events" class="upcoming-events">
-            <div class="heading">UPCOMING EVENTS</div>
+        <section id="events" >
+            <div class="heading">TOP EVENTS</div>
             <div id="loader" class="spin"></div>
             </div>
             <div class="card-container">
-                <div id="no-events">No Upcoming Events !!</div>
                 <div class="card flex column">
                     <div class="card-img">
                         <img src="assets/events/inauguration_23-24.jpg" alt="">
@@ -110,9 +237,39 @@
                         </div>
                     </div>
                 </div>
+                <div class="card flex column">
+                    <div class="card-img">
+                        <img src="assets/events/Javafest.png" alt="">
+                    </div>
+                    <div class="card-content flex column">
+                        <div class="card-head">Javafest'23</div>
+                        <div class="card-desc">Javafest is a one-day Technical Symposium organised by the Java User Groups, India to unite for innovation and academia convergence.</div>
+                        <div class="card-loc flex row">
+                            <span>15 July 2023</span>
+                            <span>9 am - 5 pm</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card flex column">
+                    <div class="card-img">
+                        <img src="assets/events/Perception.png" alt="">
+                    </div>
+                    <div class="card-content flex column">
+                        <div class="card-head">Perception' 2022</div>
+                        <div class="card-desc">Perception is a mini website designing Hackathon organised in collaboration with Newton school coding club</div>
+                        <div class="card-loc flex row">
+                            <span>19 Nov 2022</span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <section id="motto">
+            <div>Labyrinth is for the students, by the Students!</div>
+            <div> So grab the opportunity to show case your talents!</div>
+        </section>
     </main>
 
     <footer class="flex row">
