@@ -4,9 +4,9 @@
 }
 
     #club-card{
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 22px;
+        justify-content: center;
+        gap: 22px;
+        flex-wrap: wrap;
     margin: 20px 0px;
 
 }
