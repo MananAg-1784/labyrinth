@@ -24,14 +24,17 @@ $(document).ready( function(){
     };
 
     var upcomingEvents = document.querySelectorAll(".upcoming-events .card-container > div");
-    if( upcomingEvents.length == 1 )
+    console.log(upcomingEvents);
+    if(upcomingEvents.length != 0 )
     {
-       document.querySelector(".upcoming-events #no-events").style.display = "block";
-       document.querySelector(".upcoming-events #no-events").style.fontSize = "1.2rem";
+        if( upcomingEvents.length == 1 )
+        {
+        document.querySelector(".upcoming-events #no-events").style.display = "block";
+        document.querySelector(".upcoming-events #no-events").style.fontSize = "1.2rem";
+        }
+        else{
+            document.querySelector(".upcoming-events #no-events").style.display = "none";
+        }
     }
-    else{
-        document.querySelector(".upcoming-events #no-events").style.display = "none";
-    }
-
     
 });
