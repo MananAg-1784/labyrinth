@@ -8,10 +8,10 @@
 }
 
 .card-container{
-    /* display: none; */
+    display: none;
 
     margin: 35px 0px;
-    display: grid;
+    /* display: grid; */
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr) );
     gap: 20px;
     justify-items: center;

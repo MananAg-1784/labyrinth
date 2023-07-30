@@ -14,36 +14,47 @@
         }
 
         .team-desc{
-            gap: 5px;
-            padding: 20px 10px;
+            padding: 10px 10px;
+        }
+        #team-desc{
+            text-align: center;
+            padding: 12px;
+        }
+
+        .card-img, .card-img img{
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            padding: 12px;
         }
 
         .card-img img{
-            border-top-right-radius: 6px;
-            border-top-left-radius: 6px;
-
-            height: 250px;
             object-fit: cover;
             opacity: 0.95;
+            padding: 0px;
         }
         .card{
             background-color: white;
 
             padding: 5px;
-            width: 240px;
+            width: 255px;
             
             border: 1px solid rgba(206, 206, 206, 0.2);
-            box-shadow: #cccccc30 5px 5px 20px 0, #cccccc30 -5px -5px 20px 0;
-            border-radius: 10px;
+            box-shadow:#cccccc69 0px 0px 10px 1px;
+
+            align-items: center !important;
         }
 
         .card-container{
-            row-gap: 40px !important;
-            column-gap: 20px !important;
+            row-gap: 25px !important;
+            column-gap: 10px !important;
         }
 
         .card:hover .card-img{
             opacity: 0.95 !important;
-    }
+        }
 
+        .card-container .social_media img{
+            height: 1.6rem !important;
+        }
 
