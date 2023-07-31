@@ -57,4 +57,9 @@
         .card-container .social_media img{
             height: 1.6rem !important;
         }
+        @media only screen and (max-width: 770px) and (min-width: 650px){
+        .card {
+                width: 250px !important;
+            }
+        }
 
