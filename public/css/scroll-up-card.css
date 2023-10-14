@@ -35,20 +35,22 @@
 .card:hover .card-content{
     display: flex;
     
-    background-image: linear-gradient( rgba(0, 0, 0, 0.821), rgba(0, 0, 0, 0.81));
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6) 10%, rgba(0, 0, 0, 1));
     backdrop-filter: brightness(0.8);
 
     animation-name: pop-up;
-    animation-duration: 0.5s;
+    animation-duration: 1.2s;
     animation-timing-function: ease-out;
 }
 
 @keyframes pop-up{
     0%{
         bottom: -300px;
+        opacity: 0.2;
     }
     100%{
         bottom: 0px;
+        opacity: 1;
     }
 }
 
