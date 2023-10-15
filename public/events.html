@@ -22,6 +22,13 @@
         section:last-child{
             padding-top: 20px;
         }
+        .card-head{
+            display: flex;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            gap: 10px;
+            flex-direction: row;
+        }
     </style>
 </head>
 <body>
@@ -50,6 +57,9 @@
                         <a href="about.html">About Us</a>
                     </li>
                     <li>
+                        <a href="index.html#clubs">Clubs</a>
+                    </li>
+                    <li>
                         <a href="events.html" class="active">Events</a>
                     </li>
                     <li>
@@ -59,9 +69,7 @@
                     <li>
                         <a href="team.html">Team</a>
                     </li>
-                    <li>
-                        <a href="index.html#clubs">Clubs</a>
-                    </li>
+                    
                 </ul>
             </button>
             
@@ -73,18 +81,20 @@
     <main>
         
         <section id="events">
-            <div style="display: flex; justify-content: space-between;">
+            <div style="display: flex; flex-direction: column; align-items: center;">
                 <div class="heading">
                     EVENTS
                 </div>
-                <span class="event-year">
-                    <a href="#23-24" class="event-23-24 sub-heading">2023-24</a>
-                    <a href="#22-23" class="event-22-23 sub-heading">2022-23</a>
+                <span class="event-year" style="font-size: 1.01rem;">
+                    <a href="#23-24" style="color: rgb(61,61,61); text-decoration: none;" class="event-23-24 sub-heading">2023-24</a>
+                    <a href="#22-23" style="color: rgb(61,61,61); text-decoration: none;" class="event-22-23 sub-heading">2022-23</a>
                 </span>
             </div>
+        </section>
+        <section id="events">
             <section id="23-24" style="padding: 0;">
-                <div class="heading" style="text-align: center;">
-                    EVENTS 2023-24
+                <div class="heading">
+                    YEAR 2023-24
                 </div>
                 <div id="loader" class="spin">
                 </div>
@@ -120,11 +130,8 @@
                 </div>
             </section>
             <section id="22-23" style="padding: 0;">
-                <div class="heading" style="text-align: center;">
-                    EVENTS 2022-23
-                </div>
-                <div style="text-align: center;">
-                    <a href="reports/Labyrinth Yearly Report 22-23.pdf" style="color: #551A8B; font-family: monospace; text-decoration: underline;" download>Download 2022-23 Report</a>
+                <div class="heading">
+                    YEAR 2022-23 <a href="reports/Labyrinth Yearly Report 22-23.pdf" style="font-family: monospace; color:rgb(61, 61, 61);" download>(Download Report)</a>
                 </div>
                 <div id="loader" class="spin">
                 </div>
@@ -163,7 +170,7 @@
                         </div>
                         <div class="card-content flex column">
                             <div class="card-head">Web 3.0  <a href="reports/Workshop on Web3.0.pdf" class="material-icons" style="color: white;" download>&#xe2c4;</a></div>
-                            <div class="card-desc">Web 3.0 is a hands on workshop organised in collaboration with Shardeium on web3 0 to 1 and deploying your first smart contract.</div>
+                            <div class="card-desc">Web 3.0 is a hands on workshop organised in collaboration with Shardeium on web3 0 to 1.</div>
                             <div class="card-loc flex row">
                                 <span>28 March 2023</span>
                                 <span>11am - 1pm</span>
@@ -176,8 +183,8 @@
                             <img src="assets/events/blockchain_club_induction_programme.jpeg" alt="" height="310">
                         </div>
                         <div class="card-content flex column">
-                            <div class="card-head">Truts Blockchaing Club - Induction Programme  <a href="reports/Blockchain Club - Induction Programme.pdf" class="material-icons" style="color: white;" download>&#xe2c4;</a></div>
-                            <div class="card-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat nostrum ut nulla impedit ratione unde.</div>
+                            <div class="card-head">Blockchaing Club<a href="reports/Blockchain Club - Induction Programme.pdf" class="material-icons" style="color: white;" download>&#xe2c4;</a></div>
+                            <div class="card-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat nostrum ut nulla impedit.</div>
                             <div class="card-loc flex row">
                                 <span>25 March 2023</span>
                                 <span>5pm - 6pm</span>
@@ -358,7 +365,7 @@
                             <img src="assets/events/tech_talk_by_newton_school.jpg" alt="">
                         </div>
                         <div class="card-content flex column">
-                            <div class="card-head">Inauguration of Newton School Club and Session on Career Prospects  <a href="reports/Tech Talk By Newton School.pdf" class="material-icons" style="color: white;" download>&#xe2c4;</a></div>
+                            <div class="card-head">Inauguration of Newton School Club.  <a href="reports/Tech Talk By Newton School.pdf" class="material-icons" style="color: white;" download>&#xe2c4;</a></div>
                             <div class="card-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat nostrum ut nulla impedit ratione unde.</div>
                             <div class="card-loc flex row">
                                 <span>23 Nov 2023</span>
@@ -425,9 +432,6 @@
                 </div>
             </section>
         </section>
-
-        <section></section>
-
     </main>
 
     <footer class="flex row">

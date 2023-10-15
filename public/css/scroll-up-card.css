@@ -24,7 +24,7 @@
     color: white;
     display: none;
     position: absolute;
-    height: 70%;
+    height: 74%;
     bottom: 0;
 
     padding: 15px;
@@ -61,6 +61,7 @@
 .card-head{
     font-size: 1.3rem;
     font-weight: bold;
+
 }
 
 .card-loc{
