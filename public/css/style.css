@@ -4,6 +4,7 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -31,6 +32,14 @@ section{
     font-family: monospace;
     color: rgb(61, 61, 61);
     font-weight: bold;
+}
+
+.sub-heading{
+    margin: 0 2px;
+    padding: 0 5px;
+    font-size: 1.6em;
+    font-family: monospace;
+    text-decoration: underline;
 }
 
 .paragraph{

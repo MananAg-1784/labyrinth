@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/footer.css">
@@ -70,111 +71,118 @@
     </header>
 
     <main>
-
+        
         <section id="events">
-            <div class="heading">
-                EVENTS
-                <div class="event-year">
-                    <div class="all-events">
-                        
-                    </div>
-                    <div class="event-22-23">
-
-                    </div>
-                    <div class="event-23-24">
-
-                    </div>
+            <div style="display: flex; justify-content: space-between;">
+                <div class="heading">
+                    EVENTS
                 </div>
+                <span class="event-year">
+                    <a href="#23-24" class="event-23-24 sub-heading">2023-24</a>
+                    <a href="#22-23" class="event-22-23 sub-heading">2022-23</a>
+                </span>
             </div>
-            <div id="loader" class="spin">
-            </div>
-            <div class="card-container">
-                <div class="card flex column">
-                    <div class="card-img">
-                        <img src="assets/events/inauguration_23_24.jpg" alt="">
-                    </div>
-                    <div class="card-content flex column">
-                        <div class="card-head">Inaugration 2023-24</div>
-                        <div class="card-desc">Inaugration of all the eight clubs and Labyrinth for the academic year 2023 to 24
+            <section id="23-24" style="padding: 0;">
+                <div class="heading" style="text-align: center;">
+                    EVENTS 2023-24
+                </div>
+                <div id="loader" class="spin">
+                </div>
+                <div class="card-container">
+                    <div class="card flex column">
+                        <div class="card-img">
+                            <img src="assets/events/inauguration_23_24.jpg" alt="">
                         </div>
-                        <div><b>Venue : Main Auditorium</b></div>
-                        <div class="card-loc flex row">
-                            <span>1 Aug 2023</span>
-                            <span>2:15pm PM</span>
+                        <div class="card-content flex column">
+                            <div class="card-head">Inaugration 2023-24</div>
+                            <div class="card-desc">Inaugration of all the eight clubs and Labyrinth for the academic year 2023 to 24
+                            </div>
+                            <div><b>Venue : Main Auditorium</b></div>
+                            <div class="card-loc flex row">
+                                <span>1 Aug 2023</span>
+                                <span>2:15pm PM</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card flex column">
+                        <div class="card-img">
+                            <img src="assets/events/javafest.png" alt="">
+                        </div>
+                        <div class="card-content flex column">
+                            <div class="card-head">Javafest'23</div>
+                            <div class="card-desc">Javafest is a one-day Technical Symposium organised by the Java User Groups, India to unite for innovation and academia convergence.</div>
+                            <div class="card-loc flex row">
+                                <span>15 July 2023</span>
+                                <span>9 am - 5 pm</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="card flex column">
-                    <div class="card-img">
-                        <img src="assets/events/javafest.png" alt="">
+            </section>
+            <section id="22-23" style="padding: 0;">
+                <div class="heading" style="text-align: center;">
+                    EVENTS 2022-23
+                </div>
+                <div id="loader" class="spin">
+                </div>
+                <div class="card-container">
+                    <div class="card flex column">
+                        <div class="card-img">
+                            <img src="assets/events/perception_22.png" alt="">
+                        </div>
+                        <div class="card-content flex column">
+                            <div class="card-head">Perception' 2022  <a href="reports/Perception22.pdf" class="material-icons" style="color: white;" download>&#xe2c4;</a></div>
+                            <div class="card-desc">Perception is a mini website designing Hackathon organised in collaboration with Newton school coding club</div>
+                            <div class="card-loc flex row">
+                                <span>19 Nov 2022</span>
+                                <span></span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-content flex column">
-                        <div class="card-head">Javafest'23</div>
-                        <div class="card-desc">Javafest is a one-day Technical Symposium organised by the Java User Groups, India to unite for innovation and academia convergence.</div>
-                        <div class="card-loc flex row">
-                            <span>15 July 2023</span>
-                            <span>9 am - 5 pm</span>
+                    
+                    <div class="card flex column">
+                        <div class="card-img">
+                            <img src="assets/events/web3_workshop_23.png" alt="">
+                        </div>
+                        <div class="card-content flex column">
+                            <div class="card-head">Web 3.0  <a href="reports/Workshop on Web3.0.pdf" class="material-icons" style="color: white;" download>&#xe2c4;</a></div>
+                            <div class="card-desc">Web 3.0 is a hands on workshop organised in collaboration with Shardeium on web3 0 to 1 and deploying your first smart contract.</div>
+                            <div class="card-loc flex row">
+                                <span>28 March 2023</span>
+                                <span>11am - 1pm</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card flex column">
+                        <div class="card-img">
+                            <img src="assets/events/fabricate_23.png" alt="">
+                        </div>
+                        <div class="card-content flex column">
+                            <div class="card-head">Fabricate' 23  <a href="reports/Fabricate23.pdf" class="material-icons" style="color: white;" download>&#xe2c4;</a></div>
+                            <div class="card-desc">Fabricate is an online contest on Web and App designing in association with Newton School Coding Club</div>
+                            <div class="card-loc flex row">
+                                <span>28-30 Jan 2023</span>
+                                <span>4:30 pm</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card flex column">
+                        <div class="card-img">
+                            <img src="assets/events/inaugration_22_23.png" alt="">
+                        </div>
+                        <div class="card-content flex column">
+                            <div class="card-head">Inaugration 2022-23   <a href="reports/Labyrinth Inauguration 22-23.pdf" class="material-icons" style="color: white;" download>&#xe2c4;</a></div>
+                            <div class="card-desc">Inaugration of Labyrinth the Computer Science club for the academic year 2022-23 with the introduction of 7 new clubs.</div>
+                            <div class="card-loc flex row">
+                                <span>22 Aug 2022</span>
+                                <span>3:00 pm</span>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="card flex column">
-                    <div class="card-img">
-                        <img src="assets/events/perception.png" alt="">
-                    </div>
-                    <div class="card-content flex column">
-                        <div class="card-head">Perception' 2022</div>
-                        <div class="card-desc">Perception is a mini website designing Hackathon organised in collaboration with Newton school coding club</div>
-                        <div class="card-loc flex row">
-                            <span>19 Nov 2022</span>
-                            <span></span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="card flex column">
-                    <div class="card-img">
-                        <img src="assets/events/web3_workshop_23.png" alt="">
-                    </div>
-                    <div class="card-content flex column">
-                        <div class="card-head">Web 3.0</div>
-                        <div class="card-desc">Web 3.0 is a hands on workshop organised in collaboration with Shardeium on web3 0 to 1 and deploying your first smart contract.</div>
-                        <div class="card-loc flex row">
-                            <span>28 March 2023</span>
-                            <span>11am - 1pm</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="card flex column">
-                    <div class="card-img">
-                        <img src="assets/events/fabricate_23.png" alt="">
-                    </div>
-                    <div class="card-content flex column">
-                        <div class="card-head">Fabricate' 23</div>
-                        <div class="card-desc">Fabricate is an online contest on Web and App designing in association with Newton School Coding Club</div>
-                        <div class="card-loc flex row">
-                            <span>28-30 Jan 2023</span>
-                            <span>4:30 pm</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="card flex column">
-                    <div class="card-img">
-                        <img src="assets/events/inaugration_22_23.png" alt="">
-                    </div>
-                    <div class="card-content flex column">
-                        <div class="card-head">Inaugration 2022-23</div>
-                        <div class="card-desc">Inaugration of Labyrinth the Computer Science club for the academic year 2022-23 with the introduction of 7 new clubs.</div>
-                        <div class="card-loc flex row">
-                            <span>22 Aug 2022</span>
-                            <span>3:00 pm</span>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
+            </section>
         </section>
 
         <section></section>
